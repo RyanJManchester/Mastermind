@@ -23,7 +23,8 @@ class MasterMind
   # returns the new hints, updates the row.
   # + combined functions that return a computer guess
   def comp_guess; end
-  def choose_slot; end
+  def
+     choose_slot; end
 end
 
 game = MasterMind.new
